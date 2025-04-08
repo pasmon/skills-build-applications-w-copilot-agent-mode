@@ -10,6 +10,13 @@
       "django": true,
       "justMyCode": true,
       "pythonPath": "${workspaceFolder}/octofit-tracker/backend/venv/bin/python" // Adjust the path if your virtual environment folder is named differently
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch React Frontend",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/octofit-tracker/frontend/src"
     }
   ]
 }
